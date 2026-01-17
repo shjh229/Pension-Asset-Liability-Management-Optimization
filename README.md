@@ -6,9 +6,9 @@ This project develops an immunization strategy for a "closed and frozen" defined
 ## The Challenge: Actuarial Complexity
 Managing a pension fund requires balancing precise cash flow matching with rigorous risk and regulatory constraints:
 * **Liability Matching:** Covering 80 quarters of expected benefit payments indexed to CPI inflation.
-* **Diverse Security Universe:** Selecting from Nominal Treasuries, TIPS, Corporate Inflation-Protected Securities (CIPS), and Secondary Market Annuities (SMAs).
-* **Inflation Risk:** Deflating nominal cash flows by a projected 3.0% per year to match real liability values.
-* **Credit Risk Management:** Maintaining a dollar-weighted portfolio credit score below 0.4 based on a 0-3 rating scale (Default & Downgrade risk mitigation).
+* **Diverse Security Universe:** Selecting from Nominal Treasuries, TIPS, Corporate Inflation-Protected Securities (CIPS), and Secondary Market Annuities (SMAs). Each bond class has certain features in cash flows and payment.
+* **Inflation Risk:** Deflating nominal cash flows to match real liability values (used projected 3.0% per year for simplicity).
+* **Credit Risk Management:** Assigning each bond a certain credit score and make sure the total dollar-weighted portfolio credit score under some threshold (used 0.4). Also, the ratings for bond has been adjusted, and the Default & Downgrade risk needs to be considered, risk reserve (cash) is needed when the portfolio grows
 
 ## Methodology & Optimization Logic
 ### 1. Objective Function
